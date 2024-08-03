@@ -11,10 +11,11 @@ This section provides instructions to reproduce the results of this project. Fol
    cd pneumonia_identification_model
 
 2. **Create a Virtual Environment**
-   python -m venv env
-source env/bin/activate
+   ```bash
+   python -m venv env source env/bin/activate
 
-3. **Install Required Packages**
+4. **Install Required Packages**
+   ```bash
    pip install -r requirements.txt
 
 ### Step 2: Data Download
@@ -30,6 +31,8 @@ source env/bin/activate
 3. **Extract the Dataset**
   ```bash
    unzip data/archive.zip -d data/
+   ```bash
+
 After extraction, ensure the dataset directory structure looks like this:
 
 data/
@@ -38,6 +41,7 @@ data/
         ├── train/
         ├── val/
         └── test/
+
 
 ### Step 3: Preprocess the Data
 
