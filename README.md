@@ -41,9 +41,10 @@ data/
         ├── val/
         └── test/
 
-### Step 2: Preprocess the Data
+### Step 3: Preprocess the Data
 
 1. **Preprocess the Data**
+   
 Run the following command to preprocess the data:
 ```bash
 jupyter nbconvert --to notebook --execute preprocess_data.py.ipynb
@@ -51,7 +52,8 @@ jupyter nbconvert --to notebook --execute preprocess_data.py.ipynb
 
 ### Step 4: Model Training and Validation
 
-1. **Train and Validate the Model** 
+1. **Train and Validate the Model**
+   
 Run the following command to train and validate the model:
 ```bash
 jupyter nbconvert --to notebook --execute train_val_model.py.ipynb
@@ -60,6 +62,7 @@ jupyter nbconvert --to notebook --execute train_val_model.py.ipynb
 ### Step 5: Model Evaluation
 
 1. **Evaluate the Model**
+   
 Run the following command to evaluate the model:
 ```bash
 jupyter nbconvert --to notebook --execute evaluate_model.py.ipynb
