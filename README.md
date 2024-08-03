@@ -30,9 +30,8 @@ This section provides instructions to reproduce the results of this project. Fol
 
 3. **Extract the Dataset**
   ```bash
-   unzip data/archive.zip -d data/
-   ```bash
-
+   unzip data/archive.zip -d data/  
+```
 After extraction, ensure the dataset directory structure looks like this:
 
 data/
@@ -42,13 +41,13 @@ data/
         ├── val/
         └── test/
 
-
-### Step 3: Preprocess the Data
+### Step 2: Preprocess the Data
 
 1. **Preprocess the Data**
 Run the following command to preprocess the data:
 ```bash
 jupyter nbconvert --to notebook --execute preprocess_data.py.ipynb
+```
 
 ### Step 4: Model Training and Validation
 
@@ -56,6 +55,7 @@ jupyter nbconvert --to notebook --execute preprocess_data.py.ipynb
 Run the following command to train and validate the model:
 ```bash
 jupyter nbconvert --to notebook --execute train_val_model.py.ipynb
+```
 
 ### Step 5: Model Evaluation
 
@@ -63,5 +63,6 @@ jupyter nbconvert --to notebook --execute train_val_model.py.ipynb
 Run the following command to evaluate the model:
 ```bash
 jupyter nbconvert --to notebook --execute evaluate_model.py.ipynb
+```
 
 This script includes all the necessary steps to set up the environment, download and extract the data, preprocess the data, train and validate the model, and evaluate the model.
