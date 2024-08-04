@@ -15,9 +15,7 @@ The dataset used in this project is from [Kaggle](https://www.kaggle.com/dataset
 The primary stakeholders for this project include:
 
 - **Radiologists and Medical Practitioners**: who can use the tool to assist in diagnosing pneumonia more quickly and accurately.
-- 
 - **Hospitals and Clinics**: which can integrate this model into their diagnostic systems to improve efficiency and patient outcomes.
-- 
 - **Patients**: who benefit from quicker diagnoses and treatment, potentially reducing the severity and duration of the illness.
 
 
@@ -63,9 +61,7 @@ Precision and recall are particularly important in the context of pneumonia dete
 ## Implications for Stakeholders
 
 - **Radiologists and Medical Practitioners**: The model serves as a valuable tool for aiding in the diagnosis of pneumonia, potentially reducing the workload and human error.
-- 
 - **Hospitals and Clinics**: Integrating this model can enhance diagnostic processes, improve patient throughput, and ensure timely and accurate diagnoses.
-- 
 - **Patients**: Quicker and more accurate diagnoses lead to faster treatment, better outcomes, and reduced risk of complications.
 
 
