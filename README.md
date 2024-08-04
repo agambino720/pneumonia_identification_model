@@ -67,6 +67,26 @@ Precision and recall are particularly important in the context of pneumonia dete
 
 ## Repository Structure
 
+- `data/`: Directory containing the dataset files used for the project.
+- `.gitignore`: Specifies files and directories that should be ignored by Git.
+- `README.md`: Contains the project overview, setup instructions, and other documentation.
+- `pneumonia_identification_model.ipynb`: Main notebook where the entire data science process is performed.
+- `evaluate_model.ipynb`: Notebook for evaluating the trained model, copied from the main notebook for reproducibility.
+- `preprocess_data.ipynb`: Notebook for preprocessing the data before training the model, copied from the main notebook for reproducibility.
+- `train_val_model.ipynb`: Notebook for training and validating the model, copied from the main notebook for reproducibility.
+- `requirements.txt`: Lists the dependencies required to run the project.
+- 'pneumonia_identification_model_presentation': Google slides presentation in PDF format.
+
+
+## Links
+
+**Presentation:** 
+
+https://docs.google.com/presentation/d/1WaGIMw8tyOoCQE6YRTyqv6bPr_Ld19v9-jLHKuo_9gM/edit?usp=sharing
+
+**Data Source:** 
+
+https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data
 
 
 ## Reproducibility Script
