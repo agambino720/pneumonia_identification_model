@@ -67,7 +67,7 @@ Precision and recall are particularly important in the context of pneumonia dete
 
 ## Repository Structure
 
-- `data/`: Directory containing the dataset files used for the project.
+- `data/`: Directory containing the dataset link used for the project.
 - `.gitignore`: Specifies files and directories that should be ignored by Git.
 - `README.md`: Contains the project overview, setup instructions, and other documentation.
 - `pneumonia_identification_model.ipynb`: Main notebook where the entire data science process is performed.
