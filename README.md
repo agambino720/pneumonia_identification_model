@@ -75,7 +75,7 @@ Precision and recall are particularly important in the context of pneumonia dete
 - `preprocess_data.ipynb`: Notebook for preprocessing the data before training the model, copied from the main notebook for reproducibility.
 - `train_val_model.ipynb`: Notebook for training and validating the model, copied from the main notebook for reproducibility.
 - `requirements.txt`: Lists the dependencies required to run the project.
-- 'pneumonia_identification_model_presentation': Google slides presentation in PDF format.
+- `pneumonia_identification_model_presentation`: Google slides presentation in PDF format.
 
 
 ## Links
